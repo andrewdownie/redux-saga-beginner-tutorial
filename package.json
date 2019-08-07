@@ -5,11 +5,11 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "babel-node sagas.spec.js | tap-spec",
-    "start": "budo main.js:build.js --dir ./ --verbose  --live -- -t babelify"
+    "start": "budo main.js:build.js --dir ./ --verbose  --live --port 3000 -- -t babelify"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redux-saga/redux-saga-beginner-tutorial.git"
+    "url": "git+https://github.com/andrewdownie/redux-saga-beginner-tutorial.git"
   },
   "author": "Yassine ELOUAFI <yelouafi@gmail.com>",
   "license": "MIT",
